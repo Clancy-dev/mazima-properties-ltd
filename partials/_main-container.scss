@@ -1,43 +1,51 @@
 .main-container{
     width: 100%;
     min-height: 100vh;
-    background-color: green;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     padding: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
 
     .card{
         width: 100%;
         height: 60vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        border-radius: 10px;
+       
       
 
         .top-card{
             width: 100%;
-            height: 70%;
-            background-color: orangered;
+            height: 80%;
+            // background-color: orangered;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img{
                 max-width: 100%;
-                min-height: 100%;
+                min-height: 10%;
             }
         }
         .middle-card{
             width: 100%;
             height: 20%;
-            background-color: blue;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 1rem 1.5rem;
             font-family: "Poppins", sans-serif;
             font-style: normal;
+            background-color: wheat;
             color: brown;
+           
             
         }
         .bottom-card{
             width: 100%;
-            height: 10%;
-            background-color: pink;
+            height: 0%;
+            // background-color: pink;
         }
     }
 }
